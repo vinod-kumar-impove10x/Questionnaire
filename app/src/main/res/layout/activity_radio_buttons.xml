@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#1767AE"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".RadioButtonsActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please select the correct answer"
+        android:textColor="#0C0C0C"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How many planets are there in solar system "
+        android:textColor="#0B0A0A"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/option1_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10" />
+
+        <RadioButton
+            android:id="@+id/option2_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8" />
+
+        <RadioButton
+            android:id="@+id/option3_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12" />
+
+        <RadioButton
+            android:id="@+id/option4_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/verify_btn"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#1B89BF"
+        android:gravity="center"
+        android:text="Verify" />
+</LinearLayout>
